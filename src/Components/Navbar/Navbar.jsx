@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
 import icon from '../../Assets/icon2.png'
+import './navbar.css';
 
 export default class Navbar extends Component {
     render() {
         return (
-          <div className="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this page to see the responsive effect!</p>
-</div>
+          <div>
+            <nav className="navbar navbar-expand-lg navbar-light">
+                <a className="navbar-brand" href="#">
+                  <img src = {icon}/>
+                </a>
+                
+                {/* <div className = "search-bar-style">
+                <input type="text" className = "search-bar" placeholder="Search.."></input>
+                </div> */}
+                
+            </nav>
+          </div>
         )
     }
 }

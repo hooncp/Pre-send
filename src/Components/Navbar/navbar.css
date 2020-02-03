@@ -1,0 +1,28 @@
+.navbar {
+    padding: 16px 24px !important;
+    background-color: pink;
+}
+
+.search-bar-style {
+    width: 100%;
+    margin: 0;
+    background: transparent ;
+    border-color: transparent;
+    height: 44px;
+    border-style:none;
+}
+
+.search-bar {
+    width: 100%;
+    height: 44px;
+    background:white ;
+    border:0;
+    font-size: 20px;    
+    outline:none;
+    padding-left:24px;
+}
+
+.search-bar:focus{
+    background:#f4e4e4;
+    border-color: red;
+}
