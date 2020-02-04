@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import icon from '../../Assets/icon2.png'
+import icon from '../../Assets/Icons/logo-black-pink.png'
 import "./footer.css"
+import {Link} from 'react-router-dom'
 
 
 export default class Footer extends Component {
@@ -17,29 +18,25 @@ export default class Footer extends Component {
                 <div className = "col-sm-4">
                   <h4 className = "font-weight-bold">About</h4>
                   <div className = "py-2">
-                  <a href="#">FAQ</a>
+                    <Link to = "/faq">FAQ</Link>
                   </div>
                   <div className = "py-2">
-                  <a href="#">About</a>
+                    <Link to = "/about">About</Link>
                   </div>
                   <div className = "py-2">
-                  <a href="#">Contact us</a>
-                  </div>
-                  <div className = "py-2">
-                  <a href="#">How it works</a>
+                    <Link to ="/how">How it works</Link>
                   </div>
                 </div>
                 <div className = "col-sm-4">
                 <h4 className = "font-weight-bold">Contact Us</h4>
                   <div className = "py-2">
-                  <a href="#">Facebook</a>
+                  <a href="https://www.facebook.com/Presend-112179450309018/">Facebook</a>
                   </div>
                   <div className = "py-2">
-                  <a href="#">Instagram</a>
+                  <a href="https://www.instagram.com/pre.send/">Instagram</a>
                   </div>
                 </div>
               </div>
-
         </footer>
         )
     }

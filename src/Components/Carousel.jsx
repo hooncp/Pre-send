@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import img1 from '../Assets/bg-showcase-1.jpg'
-import img2 from '../Assets/bg-gift.jpg'
+import img1 from '../Assets/ImagePicture/test-product-1.jpg'
+import img2 from '../Assets/ImagePicture/test-product-2.jpg'
 
 export default class Carousel extends Component {
     render() {
         return (
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={img1} alt="First slide"/>

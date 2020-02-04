@@ -1,0 +1,16 @@
+{
+    "Categories":[
+    {
+        "categoryName": "Category 1",
+        "infographicImg": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+    },
+    {
+        "categoryName": "Category 2",
+        "infographicImg": "http://aventislearning.com/images/innovative-category-management-purchasing.png"
+    },
+    {
+        "categoryName": "Category 3",
+        "infographicImg": "../../Assets/Infographic/test-info-1.png"
+    }
+    ]
+}

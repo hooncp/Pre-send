@@ -1,21 +1,21 @@
 import React from 'react';
-import Popular from './Components/Popular';
-import Explore from './Components/Explore';
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
-import './App.css'
+import MainPage from './View/MainPage';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-    <Navbar/>
-    <div className = "App">
-    <Explore/>
-    <Popular/>
-
-    </div>
-    <Footer/>
-    </div>
+    <Router>
+      <Navbar/>
+        <Switch>
+          <Route path = "/" component = {MainPage}/>
+          {/* <Route path = "/about" component = {AboutPage}/> */}
+          {/* <Route path = "/faq" component = {FAQPage}/> */}
+          {/* <Route path = "/how" component = {HowItWorkPage}/> */}
+        </Switch>
+      <Footer/>
+    </Router>
   )
 }
 

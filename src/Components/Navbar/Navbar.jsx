@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import icon from '../../Assets/icon2.png'
+import icon from '../../Assets/Icons/logo-black-pink.png'
 import './navbar.css';
 
 export default class Navbar extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Label from './Label';
+import Label from './Utility/Label';
 import Infographics from './Card/Infographics';
 
 export default class Explore extends Component {

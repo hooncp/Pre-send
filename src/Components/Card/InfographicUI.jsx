@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import icon1 from '../../Assets/icon1.png'
+import img1 from "../../Assets/Infographic/test-info-1.png"
+import {Link} from 'react-router-dom'
 
 export default class InfographicUI extends Component {
     render() {
         return (
             <div className = "infographic-container">
-                <a href = "/something">
-                    <img src = {icon1} alt = "wait" className = "infographic-img"/>
-                    <p className = "infographic-text">Category 1</p>
-                </a>
+                <Link to = {`/${this.props.categoryName}`}>
+                    <img src = {img1} alt = "infographic" className = "infographic-img"/>
+                    <p className = "infographic-text">{this.props.categoryName}</p>
+                </Link>
             </div>
         )
     }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './label-style.css'
+import './Utility.css'
 
 export default class Label extends Component {
     render() {

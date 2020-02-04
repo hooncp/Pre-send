@@ -1,5 +1,5 @@
 import React from 'react'
-import './card-style.css'
+import './card.css'
 
 export default class Card extends React.Component {
     render() {
@@ -11,7 +11,7 @@ export default class Card extends React.Component {
 
             <div className = "card-body">
                 <h4 className="card-title">{this.props.title}</h4>
-                <p className="text-price">S$10</p>
+                <p className="text-price">{this.props.price}</p>
             </div>
         </div>
         )

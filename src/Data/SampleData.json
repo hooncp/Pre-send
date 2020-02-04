@@ -1,0 +1,34 @@
+{
+"Products":[
+    {
+        "productName": "Test Product 1",
+        "productImg": "../../Assets/ImagePicture/test-product-1.jpg",
+        "productPrice": "S$10"
+    },
+    {
+        "productName": "Test Product 2",
+        "productImg": "../../Assets/ImagePicture/test-product-2.jpg",
+        "productPrice": "S$10"
+    },
+    {
+        "productName": "Test Product 3",
+        "productImg": "../../Assets/ImagePicture/test-product-3.jpg",
+        "productPrice": "S$10"
+    },
+    {
+        "productName": "Test Product 4",
+        "productImg": "../../Assets/ImagePicture/test-product-1.jpg",
+        "productPrice": "S$10"
+    },
+    {
+        "productName": "Test Product 5",
+        "productImg": "../../Assets/ImagePicture/test-product-2.jpg",
+        "productPrice": "S$10"
+    },
+    {
+        "productName": "Test Product 6",
+        "productImg": "../../Assets/ImagePicture/test-product-3.jpg",
+        "productPrice": "S$10"
+    }
+]
+}
