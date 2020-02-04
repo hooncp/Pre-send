@@ -12,8 +12,9 @@ function App() {
     <div className = "App">
     <Explore/>
     <Popular/>
-    <Footer/>
+
     </div>
+    <Footer/>
     </div>
   )
 }

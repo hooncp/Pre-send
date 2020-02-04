@@ -48,7 +48,7 @@
 }
 
 .card:hover{
-    box-shadow: 0 .5rem 3rem rgba(0,0,0,.15)
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.15)
 }
 
 .card-img-top:hover {
