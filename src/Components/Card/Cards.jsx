@@ -8,22 +8,28 @@ export default class Cards extends Component {
         return (
             <div className = "container-fluid">
                 <div className = "row">
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img1} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img2} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img1} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img2} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img1} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
-                    <div className="col-md-2 col-sm-4 col-6 nopadding">                        
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
+                        <Card imgsrc = {img2} title = "S$100 Takashimaya Gift Vouchers"/>
+                    </div>
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
+                        <Card imgsrc = {img1} title = "S$100 Takashimaya Gift Vouchers"/>
+                    </div>
+                    <div className="col-md-3 col-sm-4 col-6 nopadding">                        
                         <Card imgsrc = {img2} title = "S$100 Takashimaya Gift Vouchers"/>
                     </div>
                 </div>  
