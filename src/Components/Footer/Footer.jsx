@@ -10,9 +10,9 @@ export default class Footer extends Component {
         <footer className="footer bg-light">
               <div className = "row">
                 <div className = "col-sm-4">
-                  <a href="#">
-                    <img src = {icon}/>
-                  </a>
+                  <Link to = "/">
+                    <img src = {icon} alt = "logo"/>
+                  </Link>
                   <p className="py-2 text-muted small ">&copy; Presend 2020. All Rights Reserved.</p>
                 </div>
                 <div className = "col-sm-4">

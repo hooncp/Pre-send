@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
 import InfographicUI from './InfographicUI'
-import img1 from '../../Assets/Infographic/test-info-1.png'
+import {data} from '../../Data/Categories.jsx'
+
 
 export default class Infographics extends Component {
-
     render() {
         return (
             <div className = "container-fluid responsive-scroll-x">
                 <div>
-                    <InfographicUI img = {img1} categoryName = "Category 1"/>
-                    <InfographicUI img = {img1} categoryName = "Category 2"/>
-                    <InfographicUI img = {img1} categoryName = "Category 3"/>
+                    {data.Categories.map((test, i)=> 
+                        <InfographicUI key = {test.id} imgLink = {test.infographicImg} categoryName = {test.categoryName}/>)}
                 </div>
             </div>
         )
