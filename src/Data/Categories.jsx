@@ -13,7 +13,7 @@ const data = {
     {
         "id": "3",
         "categoryName": "Category 3",
-        "infographicImg": require("../Assets/Infographic/test-info-1.png")
+        "infographicImg": require("../Assets/Infographic/test-info-3.png")
     }
     ]
 }

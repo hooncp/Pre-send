@@ -10,7 +10,8 @@ export default class Card extends React.Component {
             </div>
 
             <div className = "card-body">
-                <h4 className="card-title">{this.props.title}</h4>
+                <h4 className="card-title">{this.props.name}</h4>
+                
                 <p className="text-price">{this.props.price}</p>
             </div>
         </div>

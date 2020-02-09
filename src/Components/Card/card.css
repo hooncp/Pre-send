@@ -55,8 +55,16 @@
 }
 
 .text-price{
-    font-size: medium;
-    color:red;
+    color: #fff;
+    background: #2a2d36;
+    line-height: 24px;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    bottom: 3rem;
+    left: 10px;
+    border-radius: 12px;
+    padding: 0 10px;
 }
 
 .responsive-scroll-x{
@@ -72,6 +80,7 @@
 }
 
 .infographic-img {
+    border-radius: 100%;
     width: 80px;
     height: 80px;
     padding: 4px;
@@ -82,9 +91,9 @@
 }
 
 .infographic-text {
-    color: pink;
+    color: black;
     text-align:center;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 12px;
     font-size: 18px;
     line-height: 22px;
