@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './Components/Navbar/Navbar'
-import Footer from './Components/Footer/Footer'
+import NavbarWrapper from './Components/Navbar/NavbarWrapper'
+import FooterWrapper from './Components/Footer/FooterWrapper'
 import MainPage from './View/MainPage';
 import NotFoundPage from './View/NotFoundPage'
 import {BrowserRouter as Router, Redirect, Switch, Route} from 'react-router-dom'
@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Redirect, Switch, Route} from 'react-router-dom
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <NavbarWrapper/>
         <Switch>
 
           <Route exact path = "/"><MainPage/></Route>
@@ -18,7 +18,7 @@ function App() {
           {/* <Route path = "/faq" component = {FAQPage}/> */}
           {/* <Route path = "/how" component = {HowItWorkPage}/> */}
         </Switch>
-      <Footer/>
+      <FooterWrapper/>
     </Router>
   )
 }
