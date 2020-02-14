@@ -17,4 +17,11 @@ const SectionContainer = styled.div`
     margin: 16px;
 `;
 
-export {ProductCardPictureContainer, SectionContainer};
+const PageContainer = styled.div`
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: white;
+    flex: 1;
+}`
+
+export {ProductCardPictureContainer, SectionContainer, PageContainer};
