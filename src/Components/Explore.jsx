@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import Label from './Utility/Label';
-import Infographics from './Card/Infographics';
-import {ContainerWrapper} from './Utility/Label';
+import InfographicCards from './Card/InfographicCards';
+import {SectionLabel, SectionContainer} from '../Kit'
 
 export default class Explore extends Component {
     render() {
         return (
-            <ContainerWrapper>
-                <Label name= "Explore Presend"/>
-                <Infographics/>
-            </ContainerWrapper>
+            <SectionContainer>
+                <SectionLabel> 
+                    Explore Presend
+                </SectionLabel>
+                <InfographicCards/>
+            </SectionContainer>
         )
     }
 }

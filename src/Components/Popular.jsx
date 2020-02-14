@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import Label from './Utility/Label';
-import Cards from './Card/Cards'
-import {ContainerWrapper} from './Utility/Label';
+import Cards from './Card/ProductCards'
+import {SectionLabel, SectionContainer} from '../Kit'
 
 export default class Popular extends Component {
     render() {
         return (
-            <ContainerWrapper>
-                <Label name= "Popular gifts >"/>
+            <SectionContainer>
+                <SectionLabel>Popular gifts</SectionLabel>
                 <Cards/>
-          </ContainerWrapper>
+          </SectionContainer>
         )
     }
 }

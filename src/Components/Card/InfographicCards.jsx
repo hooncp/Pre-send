@@ -1,19 +1,16 @@
 import React, { Component } from 'react'
-import InfographicUI from './InfographicUI'
+import InfographicCardUI from './InfographicCardUI'
 import {data} from '../../Data/Categories.jsx'
 
-
-export default class Infographics extends Component {
+export default class InfographicCards extends Component {
     render() {
         return (
-            <div className = "container-fluid">
                 <div>
                     {data.Categories.map((test)=> 
-                        <InfographicUI key = {test.id} 
+                        <InfographicCardUI key = {test.id} 
                         imgLink = {test.infographicImg} 
                         categoryName = {test.categoryName}/>)}
                 </div>
-            </div>
         )
     }
 }
