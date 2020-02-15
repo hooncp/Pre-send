@@ -1,10 +1,13 @@
 import {ProductCard, ProductCardBody, InfographicCard} from './KitCard';
 import {InfographicCardTitle, ProductCardTitle, ProductPrice, SectionLabel} from './KitFont';
-import {InfographicCardImg, ProductCardImg} from './KitImage';
-import {ProductCardPictureContainer, SectionContainer, PageContainer} from './KitContainer'
+import {InfographicCardImg, ProductCardImg, KitImage} from './KitImage';
+import {ProductCardPictureContainer, SectionContainer, 
+        PageContainer, BannerContainer, KitContainer, CarouselContainer} from './KitContainer'
 import {KitRow} from './KitRow'
 import {KitCol, NoPaddingCol} from './KitCol'
 import {KitFooter} from './KitFooter'
+import {KitNavbar} from './KitNavbar'
+import {KitCarousel, KitCarouselItem} from './KitCarousel'
 
 export{
     ProductCard,
@@ -16,11 +19,18 @@ export{
     SectionLabel,
     InfographicCardImg,
     ProductCardImg,
+    KitImage,
     ProductCardPictureContainer,
     SectionContainer,
     PageContainer,
+    BannerContainer,
+    KitContainer,
+    CarouselContainer,
     KitRow,
     KitCol,
     NoPaddingCol,
-    KitFooter
+    KitFooter,
+    KitNavbar,
+    KitCarousel,
+    KitCarouselItem
 };

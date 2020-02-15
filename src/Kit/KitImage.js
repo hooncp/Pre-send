@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Image} from 'react-bootstrap'
 
 const InfographicCardImg = styled.img`
     border-radius: 100%;
@@ -18,6 +19,9 @@ const ProductCardImg = styled.img`
     height: 100%;
     object-fit: cover;
     transition: ease 0.5s;
-`
+`;
 
-export {InfographicCardImg, ProductCardImg};
+const KitImage = styled(Image)`
+`;
+
+export {InfographicCardImg, ProductCardImg, KitImage};

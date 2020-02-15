@@ -28,7 +28,6 @@ const InfographicCard = styled(Card)`
     text-align: center;
 `;
 
-
 export {
     ProductCard, 
     ProductCardBody,
