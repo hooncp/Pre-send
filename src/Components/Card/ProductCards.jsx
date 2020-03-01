@@ -7,12 +7,11 @@ export default class Cards extends Component {
     render() {
         return (
                 <KitRow>
-                    {data.Products.map((product) => 
-                    <NoPaddingCol md = "3" sm = "4" xs = "6" key = {product.productid}>                        
+                    {data.Products.slice(0,6).map((product) => 
+                    <NoPaddingCol md = "4" sm = "4" xs = "6" key = {product.productid}>                        
                         <ProductCardUI 
-                            imgsrc = {product.productImg} 
-                            name = {product.productName}
-                            price = {product.productPrice}/>
+                            item = {product}
+                        />
                     </NoPaddingCol>)}
                     
                 </KitRow>  

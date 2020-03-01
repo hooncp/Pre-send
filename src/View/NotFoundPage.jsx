@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import {Container} from 'react-bootstrap'
+import {PageContainer} from '../Kit'
 
 export default class NotFoundPage extends Component {
     render() {
         return (
-            <Container>
+            <PageContainer>
                 <h3>The page you are looking for is not found</h3>
                 <Link to="/">Go to Home </Link>
                 <br/>
-            </Container>
+            </PageContainer>
         )
     }
 }

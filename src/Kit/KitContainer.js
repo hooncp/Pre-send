@@ -12,22 +12,22 @@ const ProductCardPictureContainer = styled.div`
 
 const SectionContainer = styled.div`
     padding: 1rem;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 0px solid rgba(0,0,0,.125);
     border-radius: 4px;
     box-shadow: 0 3px 10px 0 rgba(44,44,45,.07), inset 0 0 0 1px rgba(44,44,45,.07);
-    margin: 16px 0px 16px 0px;
+    background-color: white;
+    margin: 20px 0px 0px 0px;
 `;
 
 const PageContainer = styled.div`
     padding-right: 24px;
     padding-left: 24px;
-    background-color: white;
+    background-color: #E0E0E0;
     flex: 1;
 `;
 
 const BannerContainer = styled.div`
-    background-color: #FFDAC1;
-    height: 40%;
+    background-color: #E0E0E0;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -36,10 +36,7 @@ const BannerContainer = styled.div`
 `;
 
 const CarouselContainer = styled.div`
-    max-height: 360px;
-    min-height: 200px;
-    object-fit: cover;  
-    position:relative;
+    position: relative;
     overflow: hidden;
 `; 
 

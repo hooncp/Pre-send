@@ -11,6 +11,8 @@ const InfographicCardTitle = styled.p`
 
 const ProductCardTitle = styled.p`
     font-size: medium;
+    font-weight: bold;
+    color: black;
 `;
 
 const ProductPrice = styled.p`

@@ -22,6 +22,7 @@ const ProductCardImg = styled.img`
 `;
 
 const KitImage = styled(Image)`
+    width: 100%;
 `;
 
 export {InfographicCardImg, ProductCardImg, KitImage};

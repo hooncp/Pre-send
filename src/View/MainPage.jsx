@@ -9,7 +9,6 @@ import CarouselWrapper from '../Components/Carousel/CarouselWrapper';
 export default class MainPage extends Component {
     render() {
         return (
-
             <PageContainer>
                 <BannerContainer/>
                 <CarouselWrapper/>
